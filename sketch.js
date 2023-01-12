@@ -54,8 +54,10 @@ function draw() {
   if(gameState===END){
     background(0);
    }
-    if(path.y){
-    }
+     if(path.y > height ){ 
+       path.y = height/2; 
+     }
+    
     createCash();
     createDiamonds();
     createJwellery();

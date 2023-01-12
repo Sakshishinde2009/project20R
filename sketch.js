@@ -119,9 +119,9 @@ function createCash() {
 
 function createDiamonds() {
   if (World.frameCount % 320 == 0) {
-       // Modify the positions of diamonds 
-    var diamonds = createSprite(Math.round(random(50, width-50))40,10,10);
-    diamonds.addImage(diamondsImg);
+  var diamonds = createSprite(Math.round(random(50, width-50))40,10,10);
+  
+  diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
   diamonds.velocityY = 5;
   diamonds.lifetime = 200;

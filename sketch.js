@@ -53,9 +53,8 @@ function draw() {
   //code to reset the background
   if(gameState===END){
     background(0);
-  }
-
-  
+   }
+    background.reset;
     createCash();
     createDiamonds();
     createJwellery();

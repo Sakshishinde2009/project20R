@@ -114,7 +114,7 @@ function createCash() {
     cash.velocityY = 5;
     cash.lifetime = 200;
     cashG.add(cash);
-  }
+}
 }
 
 function createDiamonds() {
